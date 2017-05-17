@@ -21,6 +21,7 @@
   - - - -
   * # Hardware
   * [VESC](pages/vesc.md)
+  * [Arm](pages/t0r0_arm_hardware.md)
   - - - -
   * # Software
   * [ROS System](pages/t0r0-ros-system.md)
