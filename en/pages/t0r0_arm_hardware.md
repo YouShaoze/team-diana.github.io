@@ -3,4 +3,4 @@
 ## Dynamixel motors
 
 ### MX64
-![Dynamixel MX64](files/images/dynamixel_MX64.jpg)
+![Dynamixel MX64](files/images/dynamixel_MX64.png)
