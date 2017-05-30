@@ -17,7 +17,6 @@ For information about the team and news check out the [official team website](ht
 ---
 
 ![pcl](uploads/pcl.png)
-![osrf](http://www.willowgarage.com/sites/default/files/blog/201204/OSR-Logo-Proto4-Vert.png)
 ![ros](http://www.ros.org/wp-content/uploads/2013/10/rosorg-logo1.png)
 ![opencv](http://1.bp.blogspot.com/-yvrV6MUueGg/ToICp0YIDPI/AAAAAAAAADg/YKNtJPfx-H8/s1600/OpenCV_Logo.png)
 
