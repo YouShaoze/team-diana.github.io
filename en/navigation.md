@@ -31,7 +31,6 @@
   * [SLAM](pages/slam.md)
   * [Pathfinding](pages/pathfinding.md)
   * [Pathfinding - *Planning*](pages/pathfinding-planning.md)
-  * [GUI](pages/gui.md)
 
 [T0-R0 Rover]()
 
