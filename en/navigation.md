@@ -7,6 +7,7 @@
 [Amalia Rover]()
 
   * [Rover](pages/amalia_rover.md)
+  - - - -
   * # Hardware
   * [cPCI](pages/cpci.md)
   * [Dynamixel MX-64](pages/dynamixel_mx-64.md)
@@ -19,6 +20,7 @@
   * [io_adc_pcb](pages/io_adc_pcb.md)
   * [power_pcb](pages/power_pcb.md)
   * [Engine](pages/wheel_engine.md)
+  - - - -
   * # Software
   * [IO](pages/io.md)
   * [hlCANopen](pages/hlcanopen.md)
