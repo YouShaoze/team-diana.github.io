@@ -19,7 +19,7 @@ See also [cameras](cameras.md)
 
 [LENS-15F3-60C - Fujinon 6mm fixed focal length C-mount lens](http://www.ptgrey.com/6mm-12-c-mount)
 
-## Stereo Vision
+### Stereo Vision
 
 See [stereo_vision](stereo_vision.md)
 
