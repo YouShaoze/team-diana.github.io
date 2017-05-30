@@ -9,9 +9,7 @@
   * [Rover](pages/amalia_rover.md)
   - - - -
   * # Hardware
-  * [cPCI-9116](pages/cpci-9116.md)
-  * [cPCI-7432](pages/cpci-7432.md)
-  * [cPCI-7841](pages/cpci-7841.md)
+  * [cPCI](pages/cpci.md)
   * [Dynamixel MX-64](pages/dynamixel_mx-64.md)
   * [Elmo Solo Whistle](pages/elmo_solo_whistle.md)
   * [SR4500](pages/sr4500.md)
