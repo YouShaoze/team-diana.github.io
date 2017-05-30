@@ -26,7 +26,6 @@
   * [Suspension controller](pages/suspension_controller.md)
   * [Cameras](pages/cameras.md)
   * [Pantilt](pages/pantilt.md)
-  * [SLAM](pages/slam.md)
   * [Pathfinding](pages/pathfinding.md)
   * [Pathfinding - *Planning*](pages/pathfinding-planning.md)
 
