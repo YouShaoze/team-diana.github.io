@@ -17,8 +17,7 @@
   * [IMU 6DOF Razor](pages/6dof_razor.md)
   * [1.3 MP Blackfly PoE GigE Cameras](pages/blackfly_poe_gige.md)
   * [Leg Accelerometers](pages/mma7361lc.md)
-  * [io_adc_pcb](pages/io_adc_pcb.md)
-  * [power_pcb](pages/power_pcb.md)
+  * [custom pcbs](pages/amalia_pcbs.md)
   * [Engine](pages/wheel_engine.md)
   - - - -
   * # Software

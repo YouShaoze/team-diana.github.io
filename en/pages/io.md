@@ -6,8 +6,6 @@ In the private parameters inside the code you can choose what kind of inputs you
 Launch with ```rosrun adc adc```
 This node create the service ```/Moving_Status``` that enable the full 6dof motion registration but also more noise and error. And the parameters ```/adc/filtered_imu``` that enable the low pass filter, this may create oscillation in the suspension.
 
-[ADC package](adc_package.md)
-
 
 ## imu_filter_madgwick
 Launch with ```rosrun imu_filter_madgwick imu_filter_node```
