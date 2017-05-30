@@ -8,7 +8,7 @@ See also [io_adc](io_adc.md)
 
 ### pinout IO
 
-|  index   | pin name             | wired to           | 
+| n   | pin name    | wired to            | 
 |-----|-------------|---------------------| 
 | 1   |  IDI_0      | elmo1_out1          | 
 | 2   |  IDI_1      | elmo1_out2          | 
