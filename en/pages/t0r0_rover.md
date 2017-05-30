@@ -1,3 +1,3 @@
 # T0-R0
 
-T0-R0 is the new rover built by Team DIANA
+T0-R0 is a rover engineered for partecipating to the rover challenges.

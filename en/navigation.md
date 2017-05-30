@@ -17,7 +17,7 @@
   * [SR4500](pages/sr4500.md)
   * [MTi-300](pages/mti-300.md)
   * [IMU 6DOF Razor](pages/6dof_razor.md)
-  * [1.3 MP **Color** Blackfly PoE GigE Camera](pages/blackfly_color_poe_gigehardware.md)
+  * [1.3 MP **Color** Blackfly PoE GigE Camera](pages/blackfly_color_poe_gige_hardware.md)
   * [1.3 MP **B&W** Blackfly PoE GigE Camera](pages/blackfly_bw_poe_gige_hardware.md)
   * [Leg Accelerometers](pages/mma7361lc.md)
   * [io_adc_pcb](pages/io_adc_pcb.md)
