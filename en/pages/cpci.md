@@ -9,12 +9,6 @@
 ![pinout](/uploads/cpci7432pinout.png)
 ![pinout legend](/uploads/cpci7432pinout_legend.png)
 
-
-The cPCI-7432 card is wired to the following components:
-
-- Rangefinders
-- Active suspension accelerometers
-
 Here follows some notes about the api. For further reference see the [PCI DASK manual](http://www.adlinktech.com/publications/manual/Software/PCIS-DASK-X/PSDASKFR.pdf)
 
 ```c++
@@ -28,25 +22,18 @@ AI_VoltScale(adcCard, range, *(int16_t*)(&value), &res);
 // In general, you will want to use AI_VoltScale
 ```
 
-*Note*: you have to specify if you want to sample unipolar or bipolar signal
-during the configuration:
+*Note*: you have to specify if you want to sample unipolar or bipolar signal during the configuration:
 
 ```c++
 AI_9116_Config(adcCard, MODE, trigMode, 0, 0, 0))
 // MODE could be for instance: P9116_AI_UserCMMD|P9116_AI_UniPolar
 ```
-then you will always have to specify only Unipolar or Bipolar range depending
-on this configuration
+then you will always have to specify only Unipolar or Bipolar range depending on this configuration
 
 
 ## cPCI-9116
 
 ![cPCI-9116](http://www.adlinktech.com/PD/photo/display/cPCI-9116/cPCI-9116_bimg_en_2.jpg)
-
-The cPCI-9116 card is wired to the following components:
-
-- IMU
-- Rangefinders
 
 ### Pinouts
 
@@ -68,16 +55,13 @@ AI_VoltScale(adcCard, range, *(int16_t*)(&value), &res);
 // In general, you will want to use AI_VoltScale
 ```
 
-*Note*: you have to specify if you want to sample unipolar or bipolar signal
-during the configuration:
+*Note*: you have to specify if you want to sample unipolar or bipolar signal during the configuration:
 
 ```c++
 AI_9116_Config(adcCard, MODE, trigMode, 0, 0, 0))
 // MODE could be for instance: P9116_AI_UserCMMD|P9116_AI_UniPolar
 ```
-then you will always have to specify only Unipolar or Bipolar range depending
-on this configuration.
-
+then you will always have to specify only Unipolar or Bipolar range depending on this configuration.
 
 ```c++
 
@@ -86,6 +70,7 @@ I16 DO_WriteLine (U16 CardNumber, U16 Port, U16 Line,
 U16 State);
 
 ```
+
 ### Drivers
 
 It may be possible that ADLink still does not publish linux 3.x drivers. In this case, email adlink and request the source code (better option anyway). Off course we already have the source so ask to other team members for a copy.
