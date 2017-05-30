@@ -33,11 +33,6 @@
   * [Models](pages/gazebo_models.md)
   * [Amalia Rover](pages/gazebo_amalia_rover.md)
 
-[Git]()
-
-  * [Getting started](pages/git_getting_started.md)
-  * [Repositories](pages/git_repos.md)
-
 [Dev Zone]()
 
   * [**Development guidelines**](pages/development_guidelines.md)
