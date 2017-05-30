@@ -9,7 +9,21 @@
   * [Rover](pages/amalia_rover.md)
   - - - -
   * # Hardware
-  * [Hardware](pages/amalia_hardware.md)
+  * [cPCI-9116](pages/cpci-9116.md)
+  * [cPCI-7432](pages/cpci-7432.md)
+  * [cPCI-7841](pages/cpci-7841.md)
+  * [Dynamixel MX-64](pages/dynamixel_mx-64.md)
+  * [Elmo Solo Whistle](pages/elmo_solo_whistle.md)
+  * [SR4500](pages/sr4500.md)
+  * [MTi-300](pages/mti-300.md)
+  * [IMU 6DOF Razor](pages/6dof_razor.md)
+  * [1.3 MP **Color** Blackfly PoE GigE Camera](pages/blackfly_color_poe_gigehardware.md)
+  * [1.3 MP **B&W** Blackfly PoE GigE Camera](pages/blackfly_bw_poe_gige_hardware.md)
+  * [Leg Accelerometers](pages/mma7361lc.md)
+  * [io_adc_pcb](pages/io_adc_pcb.md)
+  * [power_pcb](pages/power_pcb.md)
+  * [Solo Whistle](pages/solo-whistle.md)
+  * [Engine](pages/wheel_engine.md)
   - - - -
   * # Software
   * [GUI](pages/gui.md)
