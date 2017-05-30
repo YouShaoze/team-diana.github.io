@@ -16,3 +16,5 @@
 
 [Matlab EKF SLAM simulator](http://webdiis.unizar.es/~neira/software/slam/slamsim.htm )
 [Monoslam implementation](http://www.doc.ic.ac.uk/~ajd/software.html)
+
+## [Some software](odom_slam_algorithms.md)
