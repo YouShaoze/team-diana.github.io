@@ -58,7 +58,6 @@
 
   * [Website](http://teamdiana.org/)
   * [Server Status](pages/server_status.md)
-  * [Roadmap](pages/roadmap.md)
   * [Accounts](pages/accounts.md)
 
 [Getting started]()
