@@ -22,8 +22,16 @@
   * [Engine](pages/wheel_engine.md)
   - - - -
   * # Software
+  * [IO](pages/io.md)
+  * [hlCANopen](pages/hlcanopen.md)
+  * [diana_powertrain](pages/diana_powertrain.md)
+  * [Suspension controller](pages/suspension_controller.md)
+  * [Cameras](pages/cameras.md)
+  * [Pantilt](pages/pantilt.md)
+  * [SLAM](pages/slam.md)
+  * [Pathfinding](pages/pathfinding.md)
+  * [Pathfinding - *Planning*](pages/pathfinding-planning.md)
   * [GUI](pages/gui.md)
-  * [Subsystems](pages/amalia_subsystems.md)
 
 [T0-R0 Rover]()
 
