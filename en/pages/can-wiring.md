@@ -50,4 +50,3 @@ warning: The ArCan shield requires different wiring for Arduino Mega, see Antone
 
 [CANOpen](can_open.md)
 [Controller Area Network Physical Layer Requirements - Texas Instruments](http://www.ti.com/lit/an/slla270/slla270.pdf)*
-

@@ -34,7 +34,7 @@ See also [io_adc](io_adc.md)
 | 22  |  COM3       |                     | 
 | 23  |  COM3       |                     | 
 | 24  |  COM3       |                     | 
-| 25  | NC          |                     | 
+| 25  |  NC         |                     | 
 | 26  |  IDO_0      | imu_sleep_n         | 
 | 27  |  IDO_1      | sosp_sleep_n        | 
 | 28  |  IDO_2      | range_en_n          | 
@@ -59,9 +59,7 @@ See also [io_adc](io_adc.md)
 | 47  |  IGND       | gnd                 | 
 | 48  |  IGND       | gnd                 | 
 | 49  |  IGND       | gnd                 | 
-| 50  | V5V         |                     | 
-|     |             |                     | 
-|     |             |                     | 
+| 50  |  V5V        |                     | 
 | 51  |  IDI_8      | key1                | 
 | 52  |  IDI_9      | key2                | 
 | 53  |  IDI_10     | key3                | 
@@ -86,7 +84,7 @@ See also [io_adc](io_adc.md)
 | 72  |  COM4       | gnd                 | 
 | 73  |  COM4       | gnd                 | 
 | 74  |  COM4       | gnd                 | 
-| 75  | NC          |                     | 
+| 75  |  NC         |                     | 
 | 76  |  IDO_8      | led2_green          | 
 | 77  |  IDO_9      | led2_red            | 
 | 78  |  IDO_10     | led3_green          | 
@@ -111,13 +109,11 @@ See also [io_adc](io_adc.md)
 | 97  |  IGND       | gnd                 | 
 | 98  |  IGND       | gnd                 | 
 | 99  |  IGND       | gnd                 | 
-| 100 | V5V         |                     | 
-|     |             |                     | 
-|     |             |                     | 
+| 100 |  V5V        |                     | 
 
 ### pinout ADC
 
-|  index   | pin name             | wired to           | 
+| n   | pin name    | wired to            | 
 |-----|-------------|---------------------| 
 | 1   | U_CMMD      |                     | 
 | 2   | AI0         | temp1               | 
@@ -169,7 +165,6 @@ See also [io_adc](io_adc.md)
 | 48  | GP_TC_OUT   |                     | 
 | 49  | +5V Out     |                     | 
 | 50  | DGND        |                     | 
-|     |             |                     | 
 | 51  | AGND        | gnd                 | 
 | 52  | AI32        | imu1_gx4-X          | 
 | 53  | AI33        | imu1_gx4-Y          | 
@@ -226,7 +221,6 @@ See also [io_adc](io_adc.md)
 
 ![power pcb](/uploads/power_pcb_front.png)
 
-
 This PCB manages the power system of the rover with DC-DC converter and current transducer
 
 ### TEP-100-2412 DC-DC converter
@@ -245,7 +239,6 @@ This converter outputs the 12Vdc for the suspensions.
 These hall-effect current transducers for **pantilt**, **c-PCI**, **switch**.
 
 [datasheet](http://www.europowercomponents.com/media/uploads/lts6-np.pdf)
-
 
 ### HTB 50-SP5
 

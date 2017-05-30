@@ -17,13 +17,13 @@
   * [IMU 6DOF Razor](pages/6dof_razor.md)
   * [1.3 MP Blackfly PoE GigE Cameras](pages/blackfly_poe_gige.md)
   * [Leg Accelerometers](pages/mma7361lc.md)
-  * [custom pcbs](pages/amalia_pcbs.md)
+  * [Custom pcbs](pages/amalia_pcbs.md)
   * [Engine](pages/wheel_engine.md)
   - - - -
   * # Software
   * [IO](pages/io.md)
   * [hlCANopen](pages/hlcanopen.md)
-  * [diana_powertrain](pages/diana_powertrain.md)
+  * [Diana_powertrain](pages/diana_powertrain.md)
   * [Suspension controller](pages/suspension_controller.md)
   * [Cameras](pages/cameras.md)
   * [Pantilt](pages/pantilt.md)

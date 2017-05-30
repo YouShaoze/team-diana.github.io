@@ -2,7 +2,6 @@
 
 ROS packages for Archlinux are available on [AUR](http://aur.archlinux.org/). If a package is missing, check out [ros-build-tools](https://aur.archlinux.org/packages/ros-build-tools/) in order to create a PKGBUILD for the new package.
 
-
 ## python2 vs python3
 
 Arch switched to python3 so there may be some annoying problems since ROS still uses python2 and many libraries are not yet available to python3. 
@@ -24,7 +23,6 @@ sudo pip2 install package_name
 ```bash
 sudo pip install package_name
 ```
-
 
 **Use python2 in this shell and childrens**
 
