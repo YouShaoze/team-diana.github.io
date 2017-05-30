@@ -22,7 +22,6 @@
   * [Leg Accelerometers](pages/mma7361lc.md)
   * [io_adc_pcb](pages/io_adc_pcb.md)
   * [power_pcb](pages/power_pcb.md)
-  * [Solo Whistle](pages/solo-whistle.md)
   * [Engine](pages/wheel_engine.md)
   - - - -
   * # Software
