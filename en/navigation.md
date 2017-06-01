@@ -56,7 +56,6 @@
   * [Remote development](pages/remote_development.md)
   * [Catkin](pages/catkin.md)
   * [Tutorial NOVA](pages/nova_tutorials.md)
-  * [Ubuntu common commands](pages/ubuntu_commands.md)
   - - - -
   * # RTOS
   * [Mbed](pages/mbed.md)
