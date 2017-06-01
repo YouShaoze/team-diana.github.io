@@ -6,8 +6,6 @@
 
 [Amalia Rover]()
 
-  * [Rover](pages/amalia_rover.md)
-  - - - -
   * # Hardware
   * [cPCI](pages/cpci.md)
   * [Dynamixel MX-64](pages/dynamixel_mx-64.md)
@@ -32,14 +30,12 @@
 
 [T0-R0 Rover]()
 
-  * [Rover](pages/t0r0_rover.md)
-  - - - -
   * # Hardware
   * [VESC](pages/vesc.md)
   * [Arm](pages/t0r0_arm_hardware.md)
   - - - -
   * # Software
-  * [ROS System](pages/t0r0-ros-system.md)
+  * [ROS System](pages/t0r0_ros_system.md)
 
 [Gazebo]()
 
@@ -60,10 +56,7 @@
   * [Remote development](pages/remote_development.md)
   * [Catkin](pages/catkin.md)
   * [Tutorial NOVA](pages/nova_tutorials.md)
-  - - - -
-  * # Distros
-  * [Arch](pages/archlinux.md)
-  * [Ubuntu](pages/ubuntu.md)
+  * [Ubuntu common commands](pages/ubuntu_commands.md)
   - - - -
   * # RTOS
   * [Mbed](pages/mbed.md)
