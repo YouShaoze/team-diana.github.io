@@ -56,10 +56,7 @@
   * [Remote development](pages/remote_development.md)
   * [Catkin](pages/catkin.md)
   * [Tutorial NOVA](pages/nova_tutorials.md)
-  - - - -
-  * # RTOS
   * [Mbed](pages/mbed.md)
-  * [Chibios](pages/chibios.md)
 
 [Project]()
 
