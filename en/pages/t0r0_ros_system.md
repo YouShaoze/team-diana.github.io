@@ -99,7 +99,10 @@ rosrun image_view image_view image:=<topic_name>
 
 ### **t0r0_driving_core**
 The main node of the driving system
-
+#### Clone:
+```bash
+git clone https://github.com/team-diana/t0r0_driving_core.git
+```
 #### Run:
 ```bash
 rosrun t0r0_driving_core core
@@ -107,7 +110,10 @@ rosrun t0r0_driving_core core
 
 ### **t0r0_driving_gui**
 Gui for driving T0R0
-
+#### Clone:
+```bash
+git clone https://github.com/team-diana/T0R0DrivingTools.git
+```
 #### Run:
 ```bash
 rosrun t0r0_driving_gui gui
@@ -115,14 +121,31 @@ rosrun t0r0_driving_gui gui
 
 ### **t0r0_arm_solver**
 The inverse kinematics solver for the arm
-
+#### Clone:
+```bash
+git clone https://github.com/team-diana/t0r0_arm_solver.git
+```
 #### Run:
 ```bash
 rosrun t0r0_arm_solver solver
 ```
 
-### Joystick
+### **Joystick**
 The joystick driver
-
-#### Usage:
+#### Clone:
+```bash
+git clone https://github.com/team-diana/T0R0DrivingTools.git
+```
+#### Run:
 Flash it on arduino and run rosserial
+
+### **t0r0_arm_driver**
+The driver of t0r0 arm
+#### Clone:
+```bash
+git clone https://github.com/team-diana/t0r0_arm_driver.git
+```
+#### Run:
+```bash
+rosrun t0r0_arm_driver driver
+```
