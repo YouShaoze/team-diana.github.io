@@ -48,7 +48,6 @@
 
   * [**Development guidelines**](pages/development_guidelines.md)
   - - - -
-  * # Development
   * [Code Snippets](pages/code_snippets.md)
   * [Datasets](pages/datasets.md)
   * [Scripts](pages/scripts.md)
