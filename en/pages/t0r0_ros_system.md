@@ -97,17 +97,6 @@ rosrun image_view image_view image:=<topic_name>
 
 ## Our nodes
 
-### **t0r0_driving_core**
-The main node of the driving system
-#### Clone:
-```bash
-git clone https://github.com/team-diana/t0r0_driving_core.git
-```
-#### Run:
-```bash
-rosrun t0r0_driving_core core
-```
-
 ### **t0r0_driving_gui**
 Gui for driving T0R0
 #### Clone:
