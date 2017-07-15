@@ -108,6 +108,17 @@ git clone https://github.com/team-diana/T0R0DrivingTools.git
 rosrun t0r0_driving_gui gui
 ```
 
+### **t0r0_joystick_driver**
+Ros driver for our joystick
+#### Clone:
+```bash
+git clone https://github.com/team-diana/T0R0DrivingTools.git
+```
+#### Run:
+```bash
+rosrun t0r0_joystick_driver driver
+```
+
 ### **t0r0_arm_solver**
 The inverse kinematics solver for the arm
 #### Clone:
