@@ -59,8 +59,7 @@
 
 [Project]()
 
-  * [Website](http://teamdiana.org/)
-  * [Server Status](pages/server_status.md)
+  * [Website](http://teamdiana.it/)
   * [Accounts](pages/accounts.md)
 
 [Getting started]()
