@@ -1,4 +1,3 @@
-
 # Server Status
 
 ---
@@ -34,60 +33,11 @@
 	{{/servers}}
 </script>
 
-
-```bash
-tk1:
-ssh USERNAME@rover.teamdiana.org -p 587
-udoo:
-ssh USERNAME@rover.teamdiana.org -p 3389
-rpi2:
-ssh USERNAME@rover.teamdiana.org 
-```
-
-In order to access the server, see [ssh](ssh.md)
-
-An FTP server is hosted on rpi2. More information available [here](ftp_server_status.md)
-
-## TK1
-
-A Jetson TK-1 devkit. This server will be the heart of the T0-R0 rover. 
-
-|                    |                         |
-|--------------------|-------------------------|
-| local ip address   | 10.0.0.5                |
-| public ssh address | rover.teamdiana.org:587 |
-| hostname           | tk1                     |
-
-
-
-## Udoo Quad
-
-A Udoo Quad board. This server will be the mate of the tk1 inside the T0-R0 rover.
-
-|                    |                          |
-|--------------------|--------------------------|
-| local ip address   | 10.0.0.4                 |
-| public ssh address | rover.teamdiana.org:3389 |
-| hostname           | udoo                     |
-
-## Raspberry PI 2 
-
-A raspberry pi 2 board. Used as NAS, server for useful stuff and a lot more
-
-|                    |                        |
-|--------------------|------------------------|
-| local ip address   | 10.0.0.2               |
-| public ssh address | rover.teamdiana.org:22 |
-| hostname           | rpi2                   |
-
-
 ## Configuration
 
-The servers are connected to the same physical subnet via a switch. The Raspberry PI 2 (**rpi2**) forwards the packets between our 
-unique public ip address (**130.192.165.62**) and each server. SSH is forwared using different ports. 
-By default, external connections from a board (such as http) are automatically **nat**ted by rpi2.
+Our unique public ip address is 130.192.165.62
 
-### IP tables of rpi2
+### Example of IP tables
 
 ```bash
 Chain PREROUTING (policy ACCEPT)
