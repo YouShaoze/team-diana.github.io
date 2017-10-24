@@ -2,11 +2,11 @@
 
 ## New ros packages
 * The name of the package must start with the rover name and the different words must be separated with _
-* The name of the node must be the shortest possible
-* Remember to follow the ROS standards
+* The name of the node must be the same but without the rover name
+Remember to follow the ROS standards
 ### Example:
 Package: t0r0_driving_gui
-Node: gui
+Node: driving_gui
 
 ## New git repos
 * If it's a ros package follow the "New ros packages" instructions
