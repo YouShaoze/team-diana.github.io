@@ -129,3 +129,8 @@ server=8.8.4.4
 ```
 
 Start the server, connect and reset the board. Checkout the log of dnsmasq for getting the address
+
+```bash
+sudo service dnsmasq start
+sudo service dnsmasq status
+```
