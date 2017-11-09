@@ -16,5 +16,5 @@ warning! If you want to read this books, pay attention to buy the last version s
   - [#6a - Const Correctness](http://herbsutter.com/2013/05/24/gotw-6a-const-correctness-part-1-3/)
 
 ### [RAII](http://en.wikibooks.org/wiki/More_C%2B%2B_Idioms)
-  *todo: find a better explanation of RAII, smart pointers*
+
 
