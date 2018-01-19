@@ -1,3 +1,0 @@
-# Stereo Disparity
-
-TODO:
