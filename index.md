@@ -1,4 +1,4 @@
-# ![team-diana-logo](logo.png) Team Diana Wiki 
+# Team Diana Wiki 
 
 
 ## About this wiki 
