@@ -1,9 +1,10 @@
 Team Diana Wiki
 ======
 
-This is the wiki of the [Team Diana](http://teamdiana.it) student group. Here you can find tutorials, guides and tips about the software that we use. For information about the team and news check out the [official team website](http://teamdiana.it).  
+This is the wiki of the [Team Diana](http://teamdiana.it) student group. Here you can find tutorials, guides and tips about the software that we use.
+For information about the team and news check out the [official team website](http://teamdiana.it).  
 
-The wiki is available at http://team-diana.github.io/en/#!index.md
+The wiki is available at http://team-diana.github.io
 
 Contribute
 ------------------
