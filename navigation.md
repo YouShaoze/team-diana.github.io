@@ -51,6 +51,7 @@
   * [Code Snippets](pages/code_snippets.md)
   * [Datasets](pages/datasets.md)
   * [Scripts](pages/scripts.md)
+  * [ROS Tools](pages/ros_tools.md)
   * [Remote ROS connection](pages/remote.md)
   * [Remote development](pages/remote_development.md)
   * [Catkin](pages/catkin.md)
