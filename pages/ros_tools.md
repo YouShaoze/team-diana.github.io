@@ -8,7 +8,7 @@ Note: All commands are referred to ubuntu and ROS Jade
 
 - - - -
 
-## **Cv_camera**
+## Cv_camera
 Read data from camera or file
 
 ### Install:
@@ -33,7 +33,7 @@ Example of launch file:
 </launch>
 ```
 
-## **Rtabmap**
+## Rtabmap
 Node for SLAM and more
 
 ### Install:
@@ -41,7 +41,7 @@ Node for SLAM and more
 sudo apt-get install ros-jade-rtabmap
 ```
 
-## **Rosserial**
+## Rosserial
 Node that connect a serial device to Ros
 
 ### Use:
@@ -50,7 +50,7 @@ Flash the client program on the device, than run the host:
 rosrun rosserial_python serial_node.py </dev/tty...>
 ```
 
-## **Rostopic**
+## Rostopic
 Tool for topics' management
 
 ### Install:
@@ -62,7 +62,7 @@ sudo apt-get install ros-jade-rostopic
 rostopic list
 ```
 
-## **Topic_tools**
+## Topic_tools
 Tools for operations on topics
 
 ### Install:
@@ -74,7 +74,7 @@ sudo apt-get install ros-jade-topic-tools
 rosrun topic_tools relay <input_topic> <output_topic>
 ```
 
-## **Image_view**
+## Image_view
 Tool for image visualization
 
 ### Install:
