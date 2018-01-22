@@ -33,6 +33,8 @@ Example of launch file:
 </launch>
 ```
 
+- - - -
+
 ## Rtabmap
 Node for SLAM and more
 
@@ -40,6 +42,8 @@ Node for SLAM and more
 ```bash
 sudo apt-get install ros-jade-rtabmap
 ```
+
+- - - -
 
 ## Rosserial
 Node that connect a serial device to Ros
@@ -49,6 +53,8 @@ Flash the client program on the device, than run the host:
 ```bash
 rosrun rosserial_python serial_node.py </dev/tty...>
 ```
+
+- - - -
 
 ## Rostopic
 Tool for topics' management
@@ -62,6 +68,8 @@ sudo apt-get install ros-jade-rostopic
 rostopic list
 ```
 
+- - - -
+
 ## Topic_tools
 Tools for operations on topics
 
@@ -73,6 +81,8 @@ sudo apt-get install ros-jade-topic-tools
 ```bash
 rosrun topic_tools relay <input_topic> <output_topic>
 ```
+
+- - - -
 
 ## Image_view
 Tool for image visualization
