@@ -1,4 +1,4 @@
-# ROS SYSTEM
+# ROS TOOLS
 
 Note: All commands are referred to ubuntu and ROS Jade
 
@@ -8,7 +8,7 @@ Note: All commands are referred to ubuntu and ROS Jade
 
 - - - -
 
-## Nodes
+## Tools
 
 ### **Cv_camera**
 Read data from camera or file
@@ -51,10 +51,6 @@ Flash the client program on the device, than run the host:
 ```bash
 rosrun rosserial_python serial_node.py </dev/tty...>
 ```
-
-- - - -
-
-## Tools
 
 ### **Rostopic**
 Tool for topics' management
