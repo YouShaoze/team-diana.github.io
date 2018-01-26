@@ -3,12 +3,12 @@
 usage () {
   echo "usage:"
   echo $0 old_page_name new_page_name
-  echo 
+  echo
   echo "Both arguments must not have the '.md' suffix"
   exit
 }
 
-pages_dir="$(find .. -type d -name 'pages' )" 
+pages_dir="$(find .. -type d -name 'pages' )"
 
 page_exist () {
   {
@@ -20,7 +20,7 @@ page_exist () {
 }
 
 ends_with_md () {
-  if [[ "hello.md" =~ "\.md$" ]]; then 
+  if [[ "hello.md" =~ "\.md$" ]]; then
     return 1
   else
     return 0
@@ -32,7 +32,7 @@ bad_arg() {
   exit -1
 }
 
-if [[ $#  != 2 ]]; then
+if [[ $# != 2 ]]; then
   usage
 fi
 
@@ -55,6 +55,6 @@ if page_exist $old_page ; then
   page_file_dir=$(dirname $page_file)
   mv $page_file $page_file_dir/$new_page
   echo "page moved"
-else 
+else
   echo "page $1 not found!"
 fi
