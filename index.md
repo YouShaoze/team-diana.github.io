@@ -21,6 +21,7 @@ This is the wiki of the [Team Diana](http://teamdiana.org/) student team. Here y
 For information about the team and news check out one of our channels:
 
 [Official team website](http://teamdiana.org/)
+
 [Facebook](https://www.facebook.com/teamdiana/)
 
 ---
