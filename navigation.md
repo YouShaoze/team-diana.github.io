@@ -1,6 +1,6 @@
 # Team Diana Wiki
 
-[gimmick:theme](spacelab)
+<!-- [gimmick:theme](spacelab) -->
 
 [Home](index.md)
 
@@ -69,6 +69,8 @@
   * [Quick start](pages/getting_started.md)
   * [Learning](pages/learning.md)
   * [Git](pages/git_getting_started.md)
+  
+[gimmick:themechooser](Choose theme)
 
 <!-- A more complex navigation example: ----------------------------------------
 
