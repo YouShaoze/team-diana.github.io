@@ -1,6 +1,6 @@
 # Team Diana Wiki
 
-<!-- [gimmick:theme](spacelab) -->
+[gimmick:theme](spacelab)
 
 [Home](index.md)
 
@@ -27,22 +27,15 @@
   * [Pantilt](pages/pantilt.md)
   * [Pathfinding](pages/pathfinding.md)
   * [Pathfinding - *Planning*](pages/pathfinding-planning.md)
-
-[T0-R0 Rover]()
-
-  * # Hardware
-  * [VESC](pages/vesc.md)
-  * [Arm](pages/t0r0_arm_hardware.md)
   - - - -
-  * # Software
-  * [ROS System](pages/t0r0_ros_system.md)
-
-[Gazebo]()
-
+  * # Gazebo
   * [Gazebo](pages/gazebo.md)
   * [Gazebo Plugins](pages/gazebo_ros_pkgs.md#gazebo_plugins)
   * [Models](pages/gazebo_models.md)
   * [Amalia Rover](pages/gazebo_amalia_rover.md)
+
+
+[T0-R0 Rover]()
 
 [Dev Zone]()
 
@@ -58,58 +51,9 @@
   * [Tutorial NOVA](pages/nova_tutorials.md)
   * [Mbed](pages/mbed.md)
 
-[Project]()
-
-  * [Website](http://teamdiana.it/)
-  * [Accounts](pages/accounts.md)
-
 [Getting started]()
 
   * [This Wiki](pages/this_wiki.md)
   * [Quick start](pages/getting_started.md)
   * [Learning](pages/learning.md)
   * [Git](pages/git_getting_started.md)
-  
-[gimmick:themechooser](Choose theme)
-
-<!-- A more complex navigation example: ----------------------------------------
-
-[Menu Item 1]()
-
-  * # SubMenu Heading 1
-  * [SubMenu Item 1](pages/subitem1.md)
-  * [SubMenu Item 2](pages/subitem2.md)
-  - - - -
-  * # SubMenu Heading 2
-  * [SubMenu Item 3](pages/subitem3.md)
-  - - - -
-  * # SubMenu Heading 3
-  * [SubMenu Item 3](pages/subitem3.md)
-
-[Menu Item 2](pages/item2.md)
-
-[Menu Item 3](pages/item3.md)
-
----------------------------------------------------------------------------- -->
-
-<!--
--- Change the Language
--- Could be useful when there's more than one language wiki.
--->
-
-<!--
-[Change the Language]()
-
-  * [English (United States)](/en_US/)
-  * [English (United Kingdom)](/en_GB/)
-  * [Italian](/it/)
--->
-
-<!--
--- Let the user choose a theme
--- (Read: http://dynalon.github.io/mdwiki/#!quickstart.md#Adding_a_navigation)
--->
-
-<!--
-[gimmick:themechooser](Choose theme)
--->
