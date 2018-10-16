@@ -39,19 +39,9 @@
 
   * [**Development guidelines**](pages/development_guidelines.md)
   - - - -
-  * [Code Snippets](pages/code_snippets.md)
-  * [Datasets](pages/datasets.md)
-  * [Scripts](pages/scripts.md)
-  * [ROS Tools](pages/ros_tools.md)
-  * [Remote ROS connection](pages/remote.md)
   * [Remote development](pages/remote_development.md)
-  * [Catkin](pages/catkin.md)
-  * [Tutorial NOVA](pages/nova_tutorials.md)
-  * [Mbed](pages/mbed.md)
 
-[Getting started]()
+[Tutorials]()
 
   * [This Wiki](pages/this_wiki.md)
-  * [Quick start](pages/getting_started.md)
-  * [Learning](pages/learning.md)
   * [Git](pages/git_getting_started.md)
