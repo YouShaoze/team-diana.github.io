@@ -190,8 +190,6 @@ add_edit_page_button = function() {
     window.setTimeout(add_edit_page_button, 1000);
   } else {
     var b = $(a).children()
-    // http://prose.io/#team-diana/team-diana.github.io/edit/master/en/pages/ROS.md
-    // http://127.0.0.1:8080/en/#!index.md"
     href = window.location.href
     href = href.replace(window.location.origin, "")
     href = href.replace("#!", "").substring(1)

@@ -2,8 +2,6 @@
 
 [gimmick:theme](spacelab)
 
-[Home](index.md)
-
 [Amalia Rover]()
 
   * # Hardware
