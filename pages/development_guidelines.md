@@ -89,7 +89,7 @@ The
 - If it's a repo containing code for a specific rover put the rover name before the repo name (i.e. T0R0-ArmDriver). The rover code name is written in `UPPERCASE`, followed by a `-` and by the repo name written in `UpperCamelCase`.
 - If it's a general repo use a useful name written in `UpperCamelCase`.
 - Create the basic documentation files (See _Documentation_)
-- If your repo contains software that will be used directily on the main computer of the rover a TravisCI configuration file is needed to test it on the server before to put it on the rover.
+- If your repo contains software that will be used directily on the main computer of the rover a [TravisCI](https://travis-ci.org/) configuration file is needed to test it on the server before to put it on the rover.
 
 ## Documentation
 
