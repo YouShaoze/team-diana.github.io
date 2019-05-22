@@ -226,11 +226,9 @@ Spaces will be shown the same on all the editors. Four is an optimal and one of 
 For better readability and as a standard for the team use this kind of indentation for brackets:
 
 ```C
-if (!condition1)
-{
+if (!condition_1) {
 	printf("hello");
-	if (!condition2)
-	{
+	if (!condition_2) {
 		printf("world");
 	}
 }
@@ -242,16 +240,16 @@ _You shall not exagerate_.
 For example line up variables values that have some common context:
 
 ```C++
-int var1       = 1;
-int variable2  = 3;
-int variab3    = 42;
+int variable_1 = 1;
+int variable_2 = 3;
+int variable_3 = 42;
 
-float anotherVariable  = 3.14;
-float anVar            = 1.1618;
-float anoVariab        = 2.718;
+float another_variable     = 3.14;
+float another_variable_2   = 1.1618;
+float another_variable_314 = 2.718;
 
-foo      (var1, variable2, variab3);
-function (anotherVariable, anVar, anoVariab);
+foo (variable_1, variable_2, variable_3);
+foo (another_variable, another_variable_2, another_variable_314);
 ```
 
 ## Good Practices
@@ -274,10 +272,20 @@ The name shall describe briefly what the code entity does.
 
 | Code entity | Syntax                  |
 | ----------- | ----------------------- |
-| Classes     | `UpperCamelCase`        |
-| Methods     | `lowerCamelCase`        |
-| Variables   | `lowelCamelCase0123`    |
-| Constants   | `UPPER_SNAKE_CASE_0123` |
+| Namespaces  | `camelCase`            |
+| Macros      | `SCREAMING_SNAKE_CASE`  |
+| Classes     | `camelCase`            |
+| Structs     | `camelCase`            |
+| Enums       | `camelCase`             |
+| Enumerators | `PascalCase`            |
+| Typedef     | `camelCase`             |
+| Unions      | `camelCase`             |
+| Methods     | `camelCase`             |
+| Fields      | `camelCase`             |
+| Global Functions | `camelCase`        |
+| Global Variables | `snake_case`       |
+| Parameters  | `snake_case`            |
+| Variables   | `snake_case`            |
 
 If you need to pass a variable inside a class constructor and it needs to be stored inside the class, you can use the following method.
 
