@@ -382,6 +382,8 @@ class Foo::Foo (int _var1, float _var2)
 
 Code must be in a directory separated from the other software parts.
 
+A generic example:
+
 **For C++**
 
 
