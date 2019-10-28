@@ -5,7 +5,7 @@ computer science group.
 
 The main purpose of this document is to improve the workflow between the different members of the team.
 
-Please consider that this document can change in any moment in the future and that improvement may be needed.
+_Please consider that this document can change in any moment in the future and that improvement may be needed._
 
 ---
 
@@ -87,9 +87,8 @@ The
 ## New repository
 
 - If it's a repo containing code for a specific rover put the rover name before the repo name (i.e. T0R0-ArmDriver). The rover code name is written in `UPPERCASE`, followed by a `-` and by the repo name written in `UpperCamelCase`.
-- If it's a general repo use a useful name written in `UpperCamelCase`.
+- If it's a general repo use a meaningful name written in `UpperCamelCase`.
 - Create the basic documentation files (See _Documentation_)
-- If your repo contains software that will be used directily on the main computer of the rover a [TravisCI](https://travis-ci.org/) configuration file is needed to test it on the server before to put it on the rover.
 
 ## Documentation
 
@@ -115,7 +114,10 @@ It has to contain all the changes made.
 If the software has not a version number yet, write changes to **[Unreleased]** section. When version number will be assigned, Unreleased content will be moved to proper tag.
 Always keep the Unreleased tag, even though it is empty.
 
-Read [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
+Even though this process will be automatic in the future of the team with the help of some developing tools, you can read [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) for an introduction.
+
+Candidate tools:
+- [conventional-changelog-cli](https://github.com/conventional-changelog/conventional-changelog/tree/master/packages/conventional-changelog-cli)
 
 ### Licence
 Use the _MIT licence_ format:
@@ -123,7 +125,7 @@ Use the _MIT licence_ format:
 ```
 MIT License
 
-Copyright (c) 2019 Team DIANA from Politecnico di Torino.
+Copyright (c) 2020 Team DIANA at Politecnico di Torino.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -147,16 +149,26 @@ SOFTWARE.
 
 ## Branches
 
-The two main branches are `master` and `develop`.
+The two main branches are `master` and `develop`. The existance and usage of this two branches are **mandatory**.
 
-`master` contains always the last working code.
+`master` contains always the last version of the working software.
 
-`develop` keep track of the experimental software.
+`develop` contains the experimental software that waits for validation.
 
 To add a feature, create a branch from `develop` and give it a proper name describing the type of operation.
 When finished, make a general refactor of the code, complete the documentation and merge to `develop`. After that, your branch will be deleted by the remote repository.
 
-When `develop` reaches a good operational and documented phase, it will be merged to `master` by one of the repository responsibles, and a version number tag will be given to it.
+Before merging into `develop` the code **must** be:
+- refactored
+- readable
+- compleated with meaningful comments
+- provided with a complete and easy to understand documentation
+
+### Validation od `develop`
+
+Periodically, `develop` will be reviewed by one of the repository responsibles for validation. In this phase, the code will be double-checked, reviewed and tested. If the validation process pass all the tests, the `develop` branch will be marged with `master` and version numers will be increased accordingly (and a tag will be created). Otherwise, changes are required and feedback will be communicated with the members working on the repository.
+
+**REMEMBER!** that only the responsibles of the repository are allowed to merge `develop` onto `master`. This because, this procedure corresponds to a safety level and aim to avoid that faulty software can cause damage to the rover. Only versions on `master` are going to be used in the rover.
 
 Branches names could be:
 
@@ -165,7 +177,7 @@ Branches names could be:
 | `master`              | contains always the last working code.             |
 | `develop`             | keep track of the experimental software.           |
 | `feature/description` | generic changes will be made (`feat`, `fix`, `refactor`, `docs`, ...) |
-| `bugfix/description`  | a fix directly made to `develop`                   |
+| `fix/description`  | a fix directly made to `develop`                   |
 | `hotfix/description`  | a fix directly made to `master`                    |
 | `release/description` | minor changes before merging `develop` to `master`  (used usually to complete documentation and final tests) |
 
@@ -175,10 +187,12 @@ Branches names could be:
 
 ## Commits
 
+See this for reference [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0-beta.4/)
+
 Use this syntax
 
 ```
-<type>[optional scope]: <description>
+<type>(optional scope or subsystem): <description>
 
 [optional body]
 
@@ -197,6 +211,15 @@ Use this syntax
 * `chore`
 
 Use always the second-person singular, present time.
+
+For example:
+
+```
+feat(autopilot): add path input from MQTT
+------------
+Coordinates are received from MQTT network and passed to the
+pilot instance for trajectory planning.
+```
 
 **For a complete description check this link** [git commit guidelines](https://www.conventionalcommits.org/en/v1.0.0-beta.2/).
 
@@ -240,16 +263,14 @@ _You shall not exagerate_.
 For example line up variables values that have some common context:
 
 ```C++
-int variable_1 = 1;
-int variable_2 = 3;
-int variable_3 = 42;
+int meaningful_name_for_variable_1 = 1;
+int meaningful_name_for__2 = 3;
 
-float another_variable     = 3.14;
-float another_variable_2   = 1.1618;
-float another_variable_314 = 2.718;
+float another_meaningful_name_variable     = 3.14;
+float different_meaningful_name_variable   = 1.1618;
 
-foo (variable_1, variable_2, variable_3);
-foo (another_variable, another_variable_2, another_variable_314);
+foo (meaningful_name_for_variable_1, meaningful_name_for_variable_2);
+foo (another_meaningful_name_variable, different_meaningful_name_variable);
 ```
 
 ## Good Practices
@@ -274,10 +295,10 @@ The name shall describe briefly what the code entity does.
 | ----------- | ----------------------- |
 | Namespaces  | `camelCase`            |
 | Macros      | `SCREAMING_SNAKE_CASE`  |
-| Classes     | `camelCase`            |
-| Structs     | `camelCase`            |
+| Classes     | `PascalCase`            |
+| Structs     | `PascalCase`            |
 | Enums       | `camelCase`             |
-| Enumerators | `PascalCase`            |
+| Enumerators | `camelCase`            |
 | Typedef     | `camelCase`             |
 | Unions      | `camelCase`             |
 | Methods     | `camelCase`             |
@@ -287,10 +308,70 @@ The name shall describe briefly what the code entity does.
 | Parameters  | `snake_case`            |
 | Variables   | `snake_case`            |
 
+Code Example:
+
+```C++
+#if !defined(OS)
+#define OS_NOT_DEFINED
+#endif
+
+/*********************************************
+* ...globalFunc...
+*********************************************/
+void globalFunc();
+
+namespace foo {
+    /**
+    ...Foo...
+    */
+    class Foo {
+    public:
+        Foo();
+
+        ~Foo();
+
+        virtual Foo *getSelf() { return Foo::getSelf(); }
+
+    private:
+        void innerFunc();
+
+        int var;
+    };
+}
+struct FooPOD {
+#ifdef OS_NOT_DEFINED
+#define OS "unknown"
+#endif
+#define FooPOD_OS OS
+    int i;
+};
+struct FooC {
+private:
+    int i;
+};
+extern int a;
+
+static int innerFunc();
+
+int a = innerFunc();
+
+int innerFunc() { return 5; }
+
+void foo::Foo::innerFunc() {
+    label1:
+    int continuation = 0xCD
+                       + 0xFD + 0xBAADF00D + 0xDEADBEEF;
+    auto la = [](int i1, int i2) -> bool mutable {
+        label2:
+        return i1 < i2;
+    }(1, 2);
+}
+```
+
 If you need to pass a variable inside a class constructor and it needs to be stored inside the class, you can use the following method.
 
 ```C++
-class Foo::Foo (int _var1, flaot _var2)
+class Foo::Foo (int _var1, float _var2)
 {
 	var1 = _var1;		// var1 is an integer
 	var2 = _var2;		// var2 is a floating-point
